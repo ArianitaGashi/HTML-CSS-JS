@@ -1,0 +1,42 @@
+/* article p{
+    background: red;
+    color: white;
+    padding: 20px;
+} */
+
+article div p{
+    background: blue;
+    padding: 20px;
+}
+
+article > p{
+    background: red;
+    padding: 20px;
+}
+
+article ~ p{
+    background: green;
+    padding: 20px;
+}
+
+article + p{
+    background: orange;
+}
+
+input:in-range{
+    border: 2px solid green;
+}
+
+input:out-of-range{
+    border: 2px solid red;
+}
+
+main p:last-child{
+    background-color: pink;
+}
+
+a:hover{
+    background:blueviolet;
+}
+
+
