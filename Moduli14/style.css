@@ -35,8 +35,32 @@ main p:last-child{
     background-color: pink;
 }
 
-a:hover{
+#link:hover{
     background:blueviolet;
+}
+
+
+nav a{
+    padding: 20px;
+    margin: 20px;
+
+}
+
+nav{
+        background-color: rgb(160, 160, 238);
+        padding: 20px;
+}
+
+nav a:hover{
+    background-color: rgb(111, 111, 238);
+}
+
+nav a:active{
+    background: rgb(133, 238, 241);
+}
+
+nav a:visited{
+    color: yellow;
 }
 
 
