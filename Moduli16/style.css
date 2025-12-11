@@ -18,3 +18,52 @@
     padding: 15px;
     text-align: center;
 }
+
+.sprite{
+    background: url(images/image\ \(2\).png);
+}
+
+.engineers{
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    background-position: 0 0;
+}
+
+.hipsters{
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    background-position: -500px 0px;
+}
+
+.shadows{
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    background-position:  0px -500px;
+}
+
+.speedsters{
+      width: 400px;
+    height: 400px;
+    display: inline-block;
+    background-position:  -500px -500px;
+}
+
+p[class*="ds"]{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+div[class~="ds"]{
+    background-color: aqua;
+    color: white;
+    padding: 30px;
+}
+
+input[placeholder$="Name"]{
+    border: 2px solid red;
+}
+
