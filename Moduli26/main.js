@@ -76,4 +76,21 @@ console.log(fullName);
 
 console.log(`Hello from ${emri}`);
 
+// operatoret logjik
+
+var age = 24;
+
+console.log(age >= 18 && age <=20)
+
+
+var var1 = 5;
+
+console.log(var1<4 || var1 == 5);
+
+var var2 = 10;
+var var3 = 12;
+
+console.log(!(var2 == var3));
+
+
 
