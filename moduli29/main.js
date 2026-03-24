@@ -1,0 +1,36 @@
+var propgrammingLanguages = ["Javascript", "PHP", "Python"];
+
+console.log(propgrammingLanguages);
+
+var numrat = [1,2,3,4,5,6,7,8,9,10];
+
+console.log(numrat);
+
+console.log(propgrammingLanguages[1]);
+
+// array function
+
+//push add an elemente at the end of the list
+
+propgrammingLanguages.push("Java");
+
+numrat.push(11);
+
+document.write(propgrammingLanguages);
+
+document.write(numrat);
+
+//pop delete the last element
+
+numrat.pop();
+
+console.log(numrat);
+
+//unshift - add an element at the begining of the list
+
+propgrammingLanguages.unshift("C#");
+
+console.log(propgrammingLanguages);
+
+
+
